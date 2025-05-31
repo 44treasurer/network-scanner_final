@@ -7,7 +7,6 @@ Python ile yazılmış kapsamlı bir ağ tarama aracı. Nmap ve Scapy kütüphan
 ## Özellikler
 
 - Varsayılan ağ geçidini otomatik tespit eder.
-- Belirtilen IP aralığında tarama yapabilir.
 - Cihazların canlı olup olmadığını ICMP ping ile kontrol eder.
 - Nmap ile hızlı OS tespiti ve port taraması yapar.
 - Cihazların hostname bilgilerini DNS ve reverse lookup ile alır.
