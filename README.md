@@ -56,31 +56,20 @@ Python ile yazılmış kapsamlı bir ağ tarama aracı. Nmap ve Scapy kütüphan
 
 ## Installation / *Kurulum*
 
-1. **Clone the Repository / *Depoyu Klonlayın***:  
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
-   ```
 
-2. **Set Up Virtual Environment / *Sanal Ortam Kurulumu*** (Recommended):  
+
+1. **Set Up Virtual Environment / *Sanal Ortam Kurulumu*** (Recommended):  
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. **Install System Dependencies / *Sistem Bağımlılıklarını Yükleyin***:
+2. **Install System Dependencies / *Sistem Bağımlılıklarını Yükleyin***:
    
    **Ubuntu/Debian:**
    ```bash
    sudo apt-get update
    sudo apt-get install nmap python3-dev python3-pip
-   ```
-   
-   **CentOS/RHEL/Fedora:**
-   ```bash
-   sudo yum install nmap python3-devel python3-pip
-   # or for newer versions:
-   sudo dnf install nmap python3-devel python3-pip
    ```
    
    **macOS:**
@@ -140,9 +129,6 @@ We welcome contributions! To help:
 5. Push to your fork (`git push origin feature/your-feature`).  
 6. Open a Pull Request.  
 
-Follow our coding standards (see [CONTRIBUTING.md](CONTRIBUTING.md)).  
-
-*Topluluk katkilerini memnuniyetle karşılıyoruz! Katkıda bulunmak için yukarıdaki adımları izleyin ve kodlama standartlarımıza uyun.*
 
 ---
 
