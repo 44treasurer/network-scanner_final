@@ -15,18 +15,23 @@ Python ile yazılmış kapsamlı bir ağ tarama aracı. Nmap ve Scapy kütüphan
 *A comprehensive network scanning tool written in Python. It detects devices on the network using Nmap and Scapy libraries, performs liveness checks, port scanning, and saves results to CSV files.*
 
 ---
+## Features / *Özellikler*
 
-## Özellikler
-
-- Varsayılan ağ geçidini otomatik tespit eder.
-- Cihazların canlı olup olmadığını ICMP ping ile kontrol eder.
-- Nmap ile hızlı OS tespiti ve port taraması yapar.
-- Cihazların hostname bilgilerini DNS ve reverse lookup ile alır.
-- Açık portları ve servis versiyonlarını listeler.
-- Tarama sonuçlarını `network_scan_results.csv` dosyasına kaydeder.
-
+- **Otomatik Ağ Geçidi Tespiti:** Varsayılan ağ geçidini otomatik tespit eder.  
+  *Automatic Gateway Detection: Automatically detects the default network gateway.*
+- **Canlılık Kontrolü:** Cihazların canlı olup olmadığını ICMP ping ile kontrol eder.  
+  *Liveness Check: Checks if devices are alive using ICMP ping.*
+- **Port Taraması:** Nmap ile hızlı OS tespiti ve port taraması yapar.  
+  *Port Scanning: Performs fast OS detection and port scanning with Nmap.*
+- **Hostname Çözümleme:** Cihazların hostname bilgilerini DNS ve reverse lookup ile alır.  
+  *Hostname Resolution: Retrieves device hostname information via DNS and reverse lookup.*
+- **Servis Tespiti:** Açık portları ve servis versiyonlarını listeler.  
+  *Service Detection: Lists open ports and service versions.*
+- **CSV Kayıt:** Tarama sonuçlarını `network_scan_results.csv` dosyasına kaydeder.  
+  *CSV Export: Saves scan results to `network_scan_results.csv` file.*
 
 ---
+
 
 ## Gereksinimler
 
