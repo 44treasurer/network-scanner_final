@@ -1,6 +1,18 @@
+<div align="center">
+  <img src="https://img.shields.io/github/languages/count/keyvanarasteh/Project?style=flat-square&color=blueviolet" alt="Language Count">
+  <img src="https://img.shields.io/github/languages/top/keyvanarasteh/Project?style=flat-square&color=1e90ff" alt="Top Language">
+  <img src="https://img.shields.io/github/last-commit/keyvanarasteh/Project?style=flat-square&color=ff69b4" alt="Last Commit">
+  <img src="https://img.shields.io/github/license/keyvanarasteh/Project?style=flat-square&color=yellow" alt="License">
+  <img src="https://img.shields.io/badge/Status-Active-green?style=flat-square" alt="Status">
+  <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions">
+</div>
+
 # Network Scanner - Ağ Tarama Aracı
+*Network Scanner Tool*
 
 Python ile yazılmış kapsamlı bir ağ tarama aracı. Nmap ve Scapy kütüphanelerini kullanarak ağdaki cihazları tespit eder, canlılık kontrolü yapar, port taraması gerçekleştirir ve sonuçları CSV dosyasına kaydeder.
+
+*A comprehensive network scanning tool written in Python. It detects devices on the network using Nmap and Scapy libraries, performs liveness checks, port scanning, and saves results to CSV files.*
 
 ---
 
