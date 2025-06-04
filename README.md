@@ -40,10 +40,17 @@ Python ile yazılmış kapsamlı bir ağ tarama aracı. Nmap ve Scapy kütüphan
 
 ## Research / *Araştırmalar*
 
-| Topic / *Başlık*        | Link                                    | Description / *Açıklama*                        |
+| Topic / *Başlık*        | Link                                    | Description / *Açıklama*                       |
 |-------------------------|-----------------------------------------|------------------------------------------------|
-|   
-  
+|     Nmap                |   researchs/nmap.md                     | Comprehensive guide to Nmap network scanning techniques. / Nmap ağ tarama 
+|                         |                                         | tekniklerinin kapsamlı rehberi.  
+
+|   OpenAI                | researchs/openai.md                     |Research on AI integration for automated network analysis. / Otomatik ağ   
+|                         |                                         |analizi için AI entegrasyonu araştırması.
+
+|   Claude                |researchs/claude.md                      | Exploring Claude AI for intelligent security reporting. / Akıllı güvenlik |                         |                                         | raporlaması için Claude AI keşfi.                     
+
+|  Gemini                 | researchs/gemini.md                     |Gemini AI applications in network vulnerability assessment. / Ağ güvenlik                                                                      |açığı değerlendirmesinde Gemini AI uygulamaları.
 
 ---
 
