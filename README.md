@@ -32,6 +32,12 @@ Python ile yazılmış kapsamlı bir ağ tarama aracı. Nmap ve Scapy kütüphan
 
 ---
 
+## Team / *Ekip*
+
+- *Ad Soyad: Ramazan Akçelik 
+- *Ad Soyad: Yağız Veysel Demirel 
+- *Ad Soyad: Mehmet Kerem Bıyık 
+
 
 ## Gereksinimler
 
