@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import scapy.all as scapy
-scapy.conf.verb =   # Scapy verbose çıktı kapatma
+scapy.conf.verb = 0  # Scapy verbose çıktı kapatma
 
 import nmap
 import subprocess
