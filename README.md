@@ -38,7 +38,124 @@ Python ile yazılmış kapsamlı bir ağ tarama aracı. Nmap ve Scapy kütüphan
 - *Ad Soyad: Yağız Veysel Demirel 
 - *Ad Soyad: Mehmet Kerem Bıyık 
 
+## Research / *Araştırmalar*
 
+| Topic / *Başlık*        | Link                                    | Description / *Açıklama*                        |
+|-------------------------|-----------------------------------------|------------------------------------------------|
+|   
+  
+
+---
+
+## Installation / *Kurulum*
+
+1. **Clone the Repository / *Depoyu Klonlayın***:  
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   cd YOUR_REPO
+   ```
+
+2. **Set Up Virtual Environment / *Sanal Ortam Kurulumu*** (Recommended):  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install System Dependencies / *Sistem Bağımlılıklarını Yükleyin***:
+   
+   **Ubuntu/Debian:**
+   ```bash
+   sudo apt-get update
+   sudo apt-get install nmap python3-dev python3-pip
+   ```
+   
+   **CentOS/RHEL/Fedora:**
+   ```bash
+   sudo yum install nmap python3-devel python3-pip
+   # or for newer versions:
+   sudo dnf install nmap python3-devel python3-pip
+   ```
+   
+   **macOS:**
+   ```bash
+   brew install nmap
+   ```
+   
+   **Windows:**
+   - Download and install Nmap from: https://nmap.org/download.html
+   - Make sure Python is installed from: https://python.org
+
+4. **Install Python Dependencies / *Python Bağımlılıklarını Yükleyin***:  
+   ```bash
+   pip install python-nmap netifaces tqdm
+   ```
+   
+   **Required Libraries / *Gerekli Kütüphaneler***:
+   - `python-nmap`: Nmap Python wrapper
+   - `netifaces`: Network interface information
+   - `tqdm`: Progress bar for terminal
+   - `subprocess`: Built-in Python module
+   - `socket`: Built-in Python module
+   - `time`: Built-in Python module
+   - `csv`: Built-in Python module
+   - `argparse`: Built-in Python module
+
+---
+
+## Usage / *Kullanım*
+
+Run the project:  
+*Projeyi çalıştırın:*
+
+```bash
+python network_scanner.py --target 192.168.1.0/24 --output scan_results.csv
+```
+
+**Steps**:  
+1. Prepare network target (*specify IP range or single IP*).  
+2. Run the script with arguments (*explain key arguments*).  
+3. Check output (*results will be saved to CSV file*).  
+
+*Adımlar*:  
+1. Ağ hedefini hazırlayın (*IP aralığı veya tek IP belirtin*).  
+2. Betiği argümanlarla çalıştırın (*önemli argümanları açıklayın*).  
+3. Çıktıyı kontrol edin (*sonuçlar CSV dosyasına kaydedilecek*).
+
+---
+
+## Contributing / *Katkıda Bulunma*
+
+We welcome contributions! To help:  
+1. Fork the repository.  
+2. Clone your fork (`git clone git@github.com:YOUR_USERNAME/YOUR_REPO.git`).  
+3. Create a branch (`git checkout -b feature/your-feature`).  
+4. Commit changes with clear messages.  
+5. Push to your fork (`git push origin feature/your-feature`).  
+6. Open a Pull Request.  
+
+Follow our coding standards (see [CONTRIBUTING.md](CONTRIBUTING.md)).  
+
+*Topluluk katkilerini memnuniyetle karşılıyoruz! Katkıda bulunmak için yukarıdaki adımları izleyin ve kodlama standartlarımıza uyun.*
+
+---
+
+## License / *Lisans*
+
+Licensed under the [MIT License](LICENSE.md).  
+*MIT Lisansı altında lisanslanmıştır.*
+
+---
+
+## Acknowledgements / *Teşekkürler* (Optional)
+
+Thanks to:  
+- Nmap Project: For providing the powerful network scanning engine.  
+- Python Community: For excellent networking libraries.  
+- Open Source Contributors: For continuous improvements.  
+
+*Teşekkürler: Güçlü ağ tarama motoru ve mükemmel ağ kütüphaneleri için.*
+
+---
 ## Gereksinimler
 
 - Python 3.6+
