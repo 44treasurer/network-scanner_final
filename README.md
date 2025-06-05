@@ -103,10 +103,6 @@ Python ile yazılmış kapsamlı bir ağ tarama aracı. Nmap ve Scapy kütüphan
 Run the project:  
 *Projeyi çalıştırın:*
 
-```bash
-python network_scanner.py --target 192.168.1.0/24 --output scan_results.csv
-```
-
 **Steps**:  
 1. Prepare network target (*specify IP range or single IP*).  
 2. Run the script with arguments (*explain key arguments*).  
